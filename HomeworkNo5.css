@@ -1,0 +1,83 @@
+body {
+  height: 150vh;
+  background-size: contain;
+  background-image: url(grey-oak-tree-hi.png);
+  background-repeat: no-repeat;                           /*picture and background end here */
+  background-attachment: fixed;
+  background-position: left;
+  background-color: black;
+  font-size: large;
+}                                             
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-style: oblique;                                       /* DrAgancho bogoevski autobiography here */
+  text-shadow: 4px 4px 4px #aaa;
+  color: aquamarine;
+  font-size: 2cm;
+}                                           
+
+.job-title {
+  padding-left: 10%;
+  text-align: center;
+  font-family: serif;
+  font-style: inherit;                                       /*front end web developer here*/
+  color: rgb(255, 0, 0);
+  font-size: 1cm;
+  font-style: bold;
+  text-shadow: 5px 5px 5px royalblue;
+}                                           
+
+.paragraph1 {
+  margin-right: 20cm;
+  margin-left: 5cm;
+  margin-top: 2cm;                                                    /*p class paragraph 1 here*/ 
+  text-align: right;
+  font-family: serif;
+  font-style: italic;
+  color: lightgreen;  
+  white-space: pre;
+}                                                 
+.paragraph2 {
+  text-align: right;
+  font-family: serif;                         
+  font-style: unset;                                            /*p class paragraph 2 here*/ 
+  color: aquamarine;
+  padding-left: 30cm;
+  padding-right: 2cm;
+  font-size: x-large;
+  white-space: pre-wrap;
+}                                                 
+article {
+  padding-right: 2cm;
+  padding-left: 19cm;
+  color: navajowhite;
+  text-align: right;                                         /*tretiot tekst po red e tuka*/
+  font-style: initial;
+  font-family: serif;
+  padding-top: 10%;
+  font-size: xx-large;
+transform-origin: 10%;
+}                                                  
+
+h4 {
+  padding-top: 25%;
+  font-family: serif;                                           /*contact me here*/
+  color: orangered;
+
+
+}                                                     
+
+li {
+  color: yellow;                                               /*email tel i web here*/ 
+
+}                             
+
+ul{
+  border-bottom: 3cm;
+  padding-bottom: 3cm;
+  color:red}
+
+
+
+  
