@@ -1,12 +1,13 @@
 body {
   height: 150vh;
-  background-size: contain;
-  background-image: url(grey-oak-tree-hi.png);
+  background-image: url(grey-oak-tree-hi.png); 
   background-repeat: no-repeat;                           /*picture and background end here */
   background-attachment: fixed;
-  background-position: left;
+  background-position-x: left;
+  background-position-y: top;
   background-color: black;
   font-size: large;
+  background-size: 1100px 900px;
 }                                             
 h1 {
   text-align: center;
