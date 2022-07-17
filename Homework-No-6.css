@@ -1,0 +1,200 @@
+
+/**/
+@keyframes swaper {
+    from {
+      transform: translate(0px);
+    }
+    to {
+      transform: translateX(100px) scale(2);
+    }
+  }
+/**/
+@keyframes reverser {
+    from {
+      transform: translate(0px);
+    }
+    to {
+      transform: translate(-100px) scale(2);
+    }
+  }
+  /**/
+@keyframes bouncing-letters {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.3);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/**/
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/**/
+
+  
+
+body {
+  background-color: yellow;
+}
+
+.homepage-nav-bar {
+  width: 100%;
+  height: 20%;
+  background-color: rgba(228, 9, 137, 0.801);
+  text-align: center;
+  font-size: 47px;
+  padding: 0px 0px;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  z-index: 1.9;
+  color: rgb(190, 233, 0);
+}
+
+.homepage-title {width: 300px;
+  height: 40px;
+  background-color: red;
+  border: 10px solid rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding: 2%;
+  animation: rotate 5s both infinite ease-in-out  alternate-reverse;
+  z-index: 3;}
+
+.homepage-title:hover{
+  width: 300px;
+  height: 40px;
+  background-color: red;
+  border: 10px solid rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding: 2%;
+  animation: rotating-title 5s linear infinite forwards;
+  z-index: 3;
+  animation: mouse-click 2s linear;
+  
+     }
+
+           
+     .to-do-list {
+      width: 1847px;
+      height: 60px;
+      background-color: blue;
+      padding: 20px 20px;
+      position: relative;
+      font-size: 25px;
+      color: lightblue;
+  }
+    
+  .to-do-list:hover {
+    position: relative;
+    transform: translate(0px, -368px);
+    width: 1847px;
+    height: 60px;
+    z-index: 2;
+    color: greenyellow;
+    transition: all 1.5s ease-in-out 0.3s;
+    opacity: 1;
+}
+
+#divi1 {
+  width: 300px;
+  height: 120px;
+  animation: rotate 5s linear infinite;
+  background-color: rgb(0, 255, 13);
+  text-align: center;
+  margin-left: 60px;
+  font-size: 35px;
+}
+#divi2 {
+  width: 300px;
+  height: 60px;
+  animation: bouncing-letters 1.3s infinite alternate-reverse;
+  background-color: aqua;
+  text-align: center;
+  padding: 20px;
+  margin-left: 300px;
+  margin-right: 200px;
+  font-size: 32px;
+}
+
+#divi3 {
+  animation: swaper 4s infinite linear;
+  width: 300px;
+  height: 110px;
+  margin-left: 914px;
+  background-color: lemonchiffon;
+  font-size: 30px;
+  text-align: center;
+  position:relative; left:-119px; top:0px;
+  opacity: 0.5;
+  z-index: 3;
+  color: black;
+}
+
+
+
+
+
+#divi4 {
+  
+  width: 300px;
+  height: 110px;
+  margin-left: 900px;
+  font-size: 35px;
+  background-color: orangered;
+  text-align: center;
+  position:relative; left:92px; top:-128px;
+  opacity: 0.5;
+  z-index: 3;
+  color: whitesmoke;
+  animation: reverser 4s infinite linear
+}
+
+.kocka {
+  width: 250px;
+  height: 250px;
+  float: left;   
+  padding: 50px ;
+}
+/*iskoci dobro sto im dadov golemina i mestopolozba na trite kocki odednasx preku klasa*/
+
+#article1{
+  background-color: red;
+  text-align: center;
+  font-size:xx-large;
+  overflow: hidden;   
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+#main1 {
+  background-color: yellow;
+  text-align: center;
+  font-size:xx-large;
+  overflow: auto;
+
+}
+
+#section1 {
+  background-color: green;
+  text-align: center;
+  font-size:xx-large;
+}
+/*uspeav da go skratam malku so pomos na class i id*/
+#article1:hover{width: 650px;transition: ease-in-out 3s;}
+#section1:hover{width: 650px;transition: ease-in-out 3s;}
+#main1:hover {transform: rotate(90deg);transition: ease-in-out 3s;}
+.p {border-right: 10cm;
+text-align: left;}
