@@ -5,7 +5,7 @@
       transform: translate(0px);
     }
     to {
-      transform: translateX(100px) scale(2);
+      transform: translateX(400px) scale(2);
     }
   }
 /**/
@@ -14,7 +14,7 @@
       transform: translate(0px);
     }
     to {
-      transform: translate(-100px) scale(2);
+      transform: translate(-400px) scale(2);
     }
   }
   /**/
