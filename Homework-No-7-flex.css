@@ -1,0 +1,111 @@
+
+main {
+    width: 1000%;
+    height: 200vh;
+    background-color: background-color:  rgb(168, 165, 165); 
+    display: flex;
+}
+body{
+     width: fit-content;
+     height: fit-content ;
+    background-color: azure;
+    display: flex;
+    position: relative;
+}
+
+.tekst {
+    padding: 20px;
+}
+.top-header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(122, 120, 117);
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: black;
+    border: 1px solid black;
+}
+
+.nav-bar {
+    background-color:  background-color:  rgb(168, 165, 165); ;  
+    height: 500px;
+    width: 20%;
+    margin-top: 40px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    border: 1px solid black;
+
+
+}
+
+
+.top-main {
+    background-color:whitesmoke; 
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    width: 80%;
+    height: 600px;
+    margin-top: 60px;
+    padding-left: 300px;
+    padding-top: 100px;
+    border: 5px solid black;
+
+
+    
+} 
+
+ .bot-main    {
+    background-color:whitesmoke; 
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    width: 80%;
+    height: 600px;
+    margin-top: 60px;
+    padding-left: 300px;
+    padding-top: 200px;
+    border: 5px solid black;
+    
+ }
+
+.bot-footer {
+    width: 100%;
+    height: 40px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    background-color: greenyellow;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.icon {image-rendering: auto;
+    svg width="100" height="100"
+
+
+    image-resolution: 1px, 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
