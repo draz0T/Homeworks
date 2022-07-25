@@ -1,9 +1,28 @@
 .btn  {
-    margin-left: 500px;
+    margin-left: 
     
 }
 
 .col-md {
+    /* justify-content: center;
+    text-align: center; */
+}
+.container {grid: 5px;}
+
+.nav-item {
     justify-content: center;
     text-align: center;
+}
+#navbarNav {
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-rounded {margin-right: 10%;}
+
+
+#profile-pic{
+     justify-content: center;
+    text-align: center; 
+    
 }
