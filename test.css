@@ -1,0 +1,69 @@
+
+body {display: flex;}
+
+
+/* ova e lev del */
+ul {                    
+     list-style-type: none;
+     padding: 30px;
+     border-radius:10px ;
+    }
+li {padding: 10px;}
+
+
+#friends-stories {
+   
+  
+   display: flex;}
+   #friends-stories > div > div > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid blue;
+   }
+
+   body > main > section.articles > article > section.article-img {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    
+    border: 1px solid blue;
+   }
+   body > main > section.articles > article > section.article-details > header{
+    display: flex;
+    height: 80px;
+    width: 60px;
+  
+    
+    
+   }
+   body > main > section.articles > article > section.article-details {
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    }
+    article { padding: 10%;}
+    body > main > section.articles > article {
+        display: flex;
+
+    }
+
+    /* body > main > section.articles > article> section.article-details > header{
+        border-radius: 10px;
+        background-color: aqua;
+      */
+    }
+
+    body > main > section.articles > article > section.article-details > header > div.date > p.date-month {
+        height: 10px;
+        margin: 0%;}
+        body > main > section.articles > article > section.article-details > header > div.date{
+            border-radius: 10px;
+        background-color: aqua;
+        padding: 8px;
+        }
+        body > main > section.articles > article > section.article-details {padding: 15px;}
+        body > main > section.articles > article > section.article-details > header > div.title-zoom > h3::before{
+            content: "Some very blablaalbalal";
+            padding: 15px;
+        }
